@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AbhiroopSoaps/static/css/main.87ed981d.css",
+    "main.js": "/AbhiroopSoaps/static/js/main.6af305a1.js",
+    "static/js/787.efe3ecc2.chunk.js": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js",
+    "static/media/img3.jpg": "/AbhiroopSoaps/static/media/img3.be2bc5a8737a896a9b65.jpg",
+    "static/media/img4.jpg": "/AbhiroopSoaps/static/media/img4.d7b03665a2e9afef972b.jpg",
+    "static/media/img9.jpg": "/AbhiroopSoaps/static/media/img9.5539b35feea3f8518213.jpg",
+    "static/media/img6.jpg": "/AbhiroopSoaps/static/media/img6.5f0d4ef32276f38468e2.jpg",
+    "static/media/img7.jpg": "/AbhiroopSoaps/static/media/img7.8ba7e6cd2b34d25ece7d.jpg",
+    "static/media/img8.jpg": "/AbhiroopSoaps/static/media/img8.d4df683c65dd237f4806.jpg",
+    "static/media/img5.jpg": "/AbhiroopSoaps/static/media/img5.851d7df34e35213dc939.jpg",
+    "static/media/img1.jpg": "/AbhiroopSoaps/static/media/img1.3eb70e4454c0ee224828.jpg",
+    "static/media/img2.jpg": "/AbhiroopSoaps/static/media/img2.810079b689656d7a984d.jpg",
+    "static/media/logo.jpg": "/AbhiroopSoaps/static/media/logo.55beefd0a2b6126202d9.jpg",
+    "index.html": "/AbhiroopSoaps/index.html",
+    "main.87ed981d.css.map": "/AbhiroopSoaps/static/css/main.87ed981d.css.map",
+    "main.6af305a1.js.map": "/AbhiroopSoaps/static/js/main.6af305a1.js.map",
+    "787.efe3ecc2.chunk.js.map": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87ed981d.css",
+    "static/js/main.6af305a1.js"
+  ]
+}
