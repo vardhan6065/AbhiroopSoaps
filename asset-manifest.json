@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AbhiroopSoaps/static/css/main.b5502c9c.css",
-    "main.js": "/AbhiroopSoaps/static/js/main.6af305a1.js",
+    "main.css": "/AbhiroopSoaps/static/css/main.835aade3.css",
+    "main.js": "/AbhiroopSoaps/static/js/main.d8769716.js",
     "static/js/787.efe3ecc2.chunk.js": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js",
     "static/media/img3.jpg": "/AbhiroopSoaps/static/media/img3.be2bc5a8737a896a9b65.jpg",
     "static/media/img4.jpg": "/AbhiroopSoaps/static/media/img4.d7b03665a2e9afef972b.jpg",
@@ -14,12 +14,12 @@
     "static/media/img2.jpg": "/AbhiroopSoaps/static/media/img2.810079b689656d7a984d.jpg",
     "static/media/logo.jpg": "/AbhiroopSoaps/static/media/logo.55beefd0a2b6126202d9.jpg",
     "index.html": "/AbhiroopSoaps/index.html",
-    "main.b5502c9c.css.map": "/AbhiroopSoaps/static/css/main.b5502c9c.css.map",
-    "main.6af305a1.js.map": "/AbhiroopSoaps/static/js/main.6af305a1.js.map",
+    "main.835aade3.css.map": "/AbhiroopSoaps/static/css/main.835aade3.css.map",
+    "main.d8769716.js.map": "/AbhiroopSoaps/static/js/main.d8769716.js.map",
     "787.efe3ecc2.chunk.js.map": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5502c9c.css",
-    "static/js/main.6af305a1.js"
+    "static/css/main.835aade3.css",
+    "static/js/main.d8769716.js"
   ]
 }
