@@ -19,9 +19,6 @@ const Shop = () =>{
 
     return (
     <React.Fragment>
-
-
-
         {/* <MediaCard img={soapinfo[0].linktoImage}/> */}
             <div className={classes.mediacarddiv}>
                 <MediaCard
@@ -78,7 +75,6 @@ const Shop = () =>{
                 content={informationArray[0].content}
                 />
             </div>
-            
     </React.Fragment>
     )    
 }
