@@ -24,6 +24,7 @@ const Shop = () =>{
                 <MediaCard
                 img={img1}
                 content={informationArray[0].content}
+                
                 />
             </div>
             <div className={classes.mediacarddiv}>

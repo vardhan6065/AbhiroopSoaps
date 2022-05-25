@@ -9,7 +9,7 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import classes from './Sidebar.module.css';
 
-export default function Sidebar() {
+export default function Sidebar(props) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
@@ -49,8 +49,12 @@ export default function Sidebar() {
       <Paper className={classes.options}>
         <MenuList>
           <MenuItem>Soaps</MenuItem>
-          <MenuItem>Other Products</MenuItem>
-          <MenuItem>Contact Us</MenuItem>
+          <MenuItem>Shampoo & Conditioner</MenuItem>
+          <MenuItem>Hair Serum</MenuItem>
+          <MenuItem>Shower Gel</MenuItem>
+          <MenuItem>Hair Gel</MenuItem>
+          <MenuItem>Scrub</MenuItem>
+          <MenuItem>Face wash</MenuItem>
         </MenuList>
       </Paper>
       {/* <div>
