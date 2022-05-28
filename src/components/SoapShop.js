@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Shop.module.css';
+import classes from './SoapShop.module.css';
 // import {Fragement} from 'react';
 import MediaCard from '../UI/MediaCard.js';
 import img1 from '../assets/soapimages/img1.jpg';
@@ -13,7 +13,7 @@ import img8 from '../assets/soapimages/img8.jpg';
 import img9 from '../assets/soapimages/img9.jpg';
 import { SoapsInfo } from '../assets/SoapsInfo';
 
-const Shop = () =>{
+const SoapShop = () =>{
 
     const informationArray=SoapsInfo;
 
@@ -80,4 +80,4 @@ const Shop = () =>{
     )    
 }
 
-export default Shop;
+export default SoapShop;

@@ -11,3 +11,8 @@
     /* padding: 10px; */
     margin: 5px;
   }
+
+.sorrytext{
+  position: relative;
+  top: 10px;
+}

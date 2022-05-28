@@ -12,7 +12,7 @@ import img8 from '../assets/soapimages/img8.jpg';
 import img9 from '../assets/soapimages/img9.jpg';
 import { SoapsInfo } from '../assets/SoapsInfo';
 
-const ModalCard = () =>{
+const ModalCard = (props) =>{
 
     const informationArray=SoapsInfo;
 
