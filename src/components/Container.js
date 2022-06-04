@@ -10,21 +10,15 @@ import SorryFile from "./SorryFile.js";
 
 const Container=(props)=>{
 
-    const soapsIsShown = useSelector(state => state.isShowingSoaps);
-    const skinProductsIsShown = useSelector(state => state.isShowingSkinProducts);
-
-
-    // const [homeIsVisible,setHomeIsVisible] = useState(false);
-    // const [shopIsVisible,setShopIsVisible] = useState(true);
-  
+    const soapsIsShown = useSelector(state => state.ui.soapsIsVisible);
+    const skinProductsIsShown = useSelector(state => state.ui.skinProductsIsVisible);
+    const sorryTextIsShown = useSelector(state => state.ui.sorryTextIsVisible);
 
     return (
         <div className={classes.container}>
-            {/* {homeIsVisible && !shopIsVisible && <Home/>}
-            {shopIsVisible && !homeIsVisible && <Shop/>} */}
-            {soapsIsShown && !skinProductsIsShown && <SoapShop/>}
-            {!soapsIsShown && skinProductsIsShown && <SkinProducts/>}
-            <div>{!soapsIsShown && !skinProductsIsShown && <SorryFile/>}</div>
+            {soapsIsShown && <SoapShop/>}
+            {skinProductsIsShown && skinProductsIsShown && <SkinProducts/>}
+            {sorryTextIsShown && <div className='sorrytext'><SorryFile/></div>}
         </div>
     );
 }

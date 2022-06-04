@@ -9,6 +9,9 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import classes from './Sidebar.module.css';
 import { useDispatch } from 'react-redux';
+import {uiActions} from '../store/ui-slice';
+
+// const categories = ["Soaps","Skin Products","Shampoo & Conditioner","Hair Serum","Scrub","Face Wash"];
 
 
 export default function Sidebar(props) {
@@ -49,28 +52,41 @@ export default function Sidebar(props) {
   }, [open]);
 
 
-  const showSoapHandler = () =>{
-    dispatch({ type: 'showSoaps' });
-  }
+  // const showSoapHandler = () =>{
+  //   dispatch({ type: 'showSoaps' });
+  // }
 
-  const showSkinProductHandler = () =>{
-    dispatch({ type: 'showSkinProducts' });
-  }
+  // const showSkinProductHandler = () =>{
+  //   dispatch({ type: 'showSkinProducts' });
+  // }
 
-  const showSorryHandler = () =>{
-    dispatch({ type: 'showSorryText' });
+  // const showSorryHandler = () =>{
+  //   dispatch({ type: 'showSorryText' });
+  // }
+
+  const soapHandler =()=>{
+    dispatch(uiActions.showSoaps());
+  }
+  const sorryTextHandler =()=>{
+    dispatch(uiActions.showSorryText());
+  }
+  const skinProductHandler =()=>{
+    dispatch(uiActions.showSkinProducts());
   }
 
   return (
     <Stack direction="row" spacing={2} >
       <Paper className={classes.options}>
         <MenuList>
-          <MenuItem onClick={showSoapHandler}>Soaps</MenuItem>
-          <MenuItem onClick={showSkinProductHandler}>skin products</MenuItem>
-          <MenuItem onClick={showSorryHandler}>Shampoo & Conditioner</MenuItem>
-          <MenuItem onClick={showSorryHandler}>Hair Serum</MenuItem>
-          <MenuItem onClick={showSorryHandler}>Scrub</MenuItem>
-          <MenuItem onClick={showSorryHandler}>Face wash</MenuItem>
+           {/* {categories.map(product=>
+              <MenuItem>{product}</MenuItem>
+           )} */}
+           <MenuItem onClick={soapHandler}>Soaps</MenuItem>
+           <MenuItem onClick={skinProductHandler}>Skin Products</MenuItem>
+           <MenuItem onClick={sorryTextHandler}>Shampoo & Conditioner</MenuItem>
+           <MenuItem onClick={sorryTextHandler}>Hair Serum</MenuItem>
+           <MenuItem onClick={sorryTextHandler}>Scrub</MenuItem>
+           <MenuItem onClick={sorryTextHandler}>Face Wash</MenuItem>
         </MenuList>
       </Paper>
     </Stack>

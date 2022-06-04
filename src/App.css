@@ -50,11 +50,20 @@
 .container{
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   /* border: 2px solid black; */
   flex-direction: row;
   flex-wrap: wrap;
   overflow: auto;
+  position: relative;
+}
+
+.container .sorryfile{
+  width: 30%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 4%;
+  font-size: 1.2rem;
 }
 
 .sidebar{

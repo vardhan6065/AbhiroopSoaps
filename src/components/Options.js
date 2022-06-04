@@ -1,13 +1,27 @@
 import React from 'react';
 import classes from './options.module.css';
 import DropOption from './DropOption.js';
+import { useDispatch } from 'react-redux';
+import { mainareacontentActions } from '../store/mainareacontent-slice';
 
-const Options=(props)=>{
+const Options=()=>{
+    const dispatch = useDispatch();
+
+    const shopHandler =()=>{
+        dispatch(mainareacontentActions.showShop());
+    }
+    const homeHandler =()=>{
+        dispatch(mainareacontentActions.showHome());
+    }
+    // const contactHandler =()=>{
+    //     dispatch(mainareacontentActions.showContact());
+    // }
+
     return(
     <React.Fragment>
-    <DropOption className={classes.options} val="Shop"/>
-    <DropOption className={classes.options} val="Home"/>
-    <DropOption className={classes.options} val="Contact Us"/>
+        <p className={classes.dropOption} onClick={shopHandler}>Shop</p>
+        <p className={classes.dropOption} onClick={homeHandler}>Home</p>
+        <p className={classes.dropOption} >Contact Us</p>
     </React.Fragment>
     );
 }

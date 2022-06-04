@@ -1,35 +1,10 @@
-import { createStore } from 'redux';
+import { configureStore } from "@reduxjs/toolkit";
 
-const containerReducer = (initialState = 
-    { 
-        isShowingSoaps:true,
-        isShowingSkinProducts:false,
-    }, action) => {
-  
-  if (action.type === 'showSoaps') {
-    return {
-        isShowingSoaps:true,
-        isShowingSkinProducts:false,
-    }
-  }
+import uiSlice from "./ui-slice";
+import mainareacontentSlice from "./mainareacontent-slice";
 
-  if (action.type === 'showSkinProducts') {
-    return {
-        isShowingSoaps:false,
-        isShowingSkinProducts:true,
-    };
-  }
-
-  if (action.type === 'showSorryText') {
-    return {
-        isShowingSoaps:false,
-        isShowingSkinProducts:false,
-    };
-  }
-
-  return initialState;
-};
-
-const store = createStore(containerReducer);
+const store = configureStore({
+    reducer : {ui : uiSlice.reducer, mainareacontent : mainareacontentSlice.reducer }
+})
 
 export default store;
