@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AbhiroopSoaps/static/css/main.97951e13.css",
-    "main.js": "/AbhiroopSoaps/static/js/main.9309b8e0.js",
+    "main.css": "/AbhiroopSoaps/static/css/main.a46e3421.css",
+    "main.js": "/AbhiroopSoaps/static/js/main.03c46e13.js",
     "static/js/787.efe3ecc2.chunk.js": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js",
     "static/media/aloeveragel.jpg": "/AbhiroopSoaps/static/media/aloeveragel.e8214cd165cb6eb5ddc5.jpg",
     "static/media/img3.jpg": "/AbhiroopSoaps/static/media/img3.be2bc5a8737a896a9b65.jpg",
@@ -9,7 +9,6 @@
     "static/media/facepack1.jpg": "/AbhiroopSoaps/static/media/facepack1.43366a20c9fb60b012b5.jpg",
     "static/media/charcoalscrub.jpg": "/AbhiroopSoaps/static/media/charcoalscrub.e6f654ab8b0abc6f9514.jpg",
     "static/media/img4.jpg": "/AbhiroopSoaps/static/media/img4.d7b03665a2e9afef972b.jpg",
-    "static/media/img9.jpg": "/AbhiroopSoaps/static/media/img9.5539b35feea3f8518213.jpg",
     "static/media/img6.jpg": "/AbhiroopSoaps/static/media/img6.5f0d4ef32276f38468e2.jpg",
     "static/media/img7.jpg": "/AbhiroopSoaps/static/media/img7.8ba7e6cd2b34d25ece7d.jpg",
     "static/media/img8.jpg": "/AbhiroopSoaps/static/media/img8.d4df683c65dd237f4806.jpg",
@@ -17,15 +16,14 @@
     "static/media/facepack.jpg": "/AbhiroopSoaps/static/media/facepack.0fd0a1c6c37078094a18.jpg",
     "static/media/img1.jpg": "/AbhiroopSoaps/static/media/img1.3eb70e4454c0ee224828.jpg",
     "static/media/strawberrylipbalm.jpg": "/AbhiroopSoaps/static/media/strawberrylipbalm.c4610b9353cd2ab85180.jpg",
-    "static/media/img2.jpg": "/AbhiroopSoaps/static/media/img2.810079b689656d7a984d.jpg",
     "static/media/logo.jpg": "/AbhiroopSoaps/static/media/logo.55beefd0a2b6126202d9.jpg",
     "index.html": "/AbhiroopSoaps/index.html",
-    "main.97951e13.css.map": "/AbhiroopSoaps/static/css/main.97951e13.css.map",
-    "main.9309b8e0.js.map": "/AbhiroopSoaps/static/js/main.9309b8e0.js.map",
+    "main.a46e3421.css.map": "/AbhiroopSoaps/static/css/main.a46e3421.css.map",
+    "main.03c46e13.js.map": "/AbhiroopSoaps/static/js/main.03c46e13.js.map",
     "787.efe3ecc2.chunk.js.map": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97951e13.css",
-    "static/js/main.9309b8e0.js"
+    "static/css/main.a46e3421.css",
+    "static/js/main.03c46e13.js"
   ]
 }
