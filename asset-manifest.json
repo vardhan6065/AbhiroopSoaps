@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/AbhiroopSoaps/static/css/main.a46e3421.css",
-    "main.js": "/AbhiroopSoaps/static/js/main.03c46e13.js",
+    "main.css": "/AbhiroopSoaps/static/css/main.16c3c60d.css",
+    "main.js": "/AbhiroopSoaps/static/js/main.94a72079.js",
     "static/js/787.efe3ecc2.chunk.js": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js",
+    "static/media/img2.jpg": "/AbhiroopSoaps/static/media/img2.59f0b0bdd149e7003ae5.jpg",
+    "static/media/img1.jpg": "/AbhiroopSoaps/static/media/img1.3eb70e4454c0ee224828.jpg",
+    "static/media/wp.jpg": "/AbhiroopSoaps/static/media/wp.f8fda3382185a5abf7c0.jpg",
     "static/media/aloeveragel.jpg": "/AbhiroopSoaps/static/media/aloeveragel.e8214cd165cb6eb5ddc5.jpg",
     "static/media/img3.jpg": "/AbhiroopSoaps/static/media/img3.be2bc5a8737a896a9b65.jpg",
     "static/media/vanillalipbalm.jpg": "/AbhiroopSoaps/static/media/vanillalipbalm.d2763063c0517088de93.jpg",
@@ -14,16 +17,15 @@
     "static/media/img8.jpg": "/AbhiroopSoaps/static/media/img8.d4df683c65dd237f4806.jpg",
     "static/media/img5.jpg": "/AbhiroopSoaps/static/media/img5.851d7df34e35213dc939.jpg",
     "static/media/facepack.jpg": "/AbhiroopSoaps/static/media/facepack.0fd0a1c6c37078094a18.jpg",
-    "static/media/img1.jpg": "/AbhiroopSoaps/static/media/img1.3eb70e4454c0ee224828.jpg",
     "static/media/strawberrylipbalm.jpg": "/AbhiroopSoaps/static/media/strawberrylipbalm.c4610b9353cd2ab85180.jpg",
     "static/media/logo.jpg": "/AbhiroopSoaps/static/media/logo.55beefd0a2b6126202d9.jpg",
     "index.html": "/AbhiroopSoaps/index.html",
-    "main.a46e3421.css.map": "/AbhiroopSoaps/static/css/main.a46e3421.css.map",
-    "main.03c46e13.js.map": "/AbhiroopSoaps/static/js/main.03c46e13.js.map",
+    "main.16c3c60d.css.map": "/AbhiroopSoaps/static/css/main.16c3c60d.css.map",
+    "main.94a72079.js.map": "/AbhiroopSoaps/static/js/main.94a72079.js.map",
     "787.efe3ecc2.chunk.js.map": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46e3421.css",
-    "static/js/main.03c46e13.js"
+    "static/css/main.16c3c60d.css",
+    "static/js/main.94a72079.js"
   ]
 }
