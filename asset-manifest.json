@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AbhiroopSoaps/static/css/main.16c3c60d.css",
-    "main.js": "/AbhiroopSoaps/static/js/main.94a72079.js",
+    "main.css": "/AbhiroopSoaps/static/css/main.d9331ea0.css",
+    "main.js": "/AbhiroopSoaps/static/js/main.a5fa5c66.js",
     "static/js/787.efe3ecc2.chunk.js": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js",
     "static/media/img2.jpg": "/AbhiroopSoaps/static/media/img2.59f0b0bdd149e7003ae5.jpg",
     "static/media/img1.jpg": "/AbhiroopSoaps/static/media/img1.3eb70e4454c0ee224828.jpg",
@@ -20,12 +20,12 @@
     "static/media/strawberrylipbalm.jpg": "/AbhiroopSoaps/static/media/strawberrylipbalm.c4610b9353cd2ab85180.jpg",
     "static/media/logo.jpg": "/AbhiroopSoaps/static/media/logo.55beefd0a2b6126202d9.jpg",
     "index.html": "/AbhiroopSoaps/index.html",
-    "main.16c3c60d.css.map": "/AbhiroopSoaps/static/css/main.16c3c60d.css.map",
-    "main.94a72079.js.map": "/AbhiroopSoaps/static/js/main.94a72079.js.map",
+    "main.d9331ea0.css.map": "/AbhiroopSoaps/static/css/main.d9331ea0.css.map",
+    "main.a5fa5c66.js.map": "/AbhiroopSoaps/static/js/main.a5fa5c66.js.map",
     "787.efe3ecc2.chunk.js.map": "/AbhiroopSoaps/static/js/787.efe3ecc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c3c60d.css",
-    "static/js/main.94a72079.js"
+    "static/css/main.d9331ea0.css",
+    "static/js/main.a5fa5c66.js"
   ]
 }
