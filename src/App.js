@@ -8,6 +8,8 @@ import Sidebar from './components/Sidebar';
 import SorryFile from './components/SorryFile';
 import { useSelector } from 'react-redux';
 import Home from './components/Home';
+import wp from './assets/wp.jpg';
+import { ChakraProvider } from '@chakra-ui/react';
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
       <Header/>
       {mainAreaShop && shop}
       {mainAreaHome && <Home/>}
+      <a className='wp-chat' href="https://wa.me/919772136065" target='_blank'><img src={wp}></img></a>
     </div>
   );
 }

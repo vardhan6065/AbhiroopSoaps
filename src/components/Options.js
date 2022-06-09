@@ -19,9 +19,10 @@ const Options=()=>{
 
     return(
     <React.Fragment>
-        <p className={classes.dropOption} onClick={shopHandler}>Shop</p>
-        <p className={classes.dropOption} onClick={homeHandler}>Home</p>
-        <p className={classes.dropOption} >Contact Us</p>
+        <span className={classes.dropOption} onClick={shopHandler}>Shop</span>
+        <span className={classes.dropOption} onClick={homeHandler}>Home</span>
+        <span className={classes.dropOption} >Contact Us</span>
+        <span className={classes.dropOption} >Cart</span>
     </React.Fragment>
     );
 }

@@ -4,3 +4,45 @@
     top: 200px;
     z-index: 1;
 }
+
+.homecontainer{
+    height: auto;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 7rem;
+}
+/* .homecontainer .home1{
+    border: 1px solid black;
+} */
+
+.homecontainer .home1images{
+    width: 50%;
+    margin: 0px;
+}
+
+.homecontainer .home2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    position: relative;
+    top: 5rem;
+    background-color: #c6c4bc;
+    color:#4e372a;
+}
+
+.template{
+    /* border: 1px solid black; */
+    border-radius: 2px;
+    padding: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 30%;
+}
+
+.template p{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+
