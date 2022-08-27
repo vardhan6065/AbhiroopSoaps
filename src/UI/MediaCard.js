@@ -10,7 +10,7 @@ import classes from './MediaCard.module.css';
 
 export default function MediaCard(props) {
   return (
-    <Card sx={{ maxWidth: 330 , maxHeight: 400 }} >
+    <Card sx={{ maxWidth: 330 , maxHeight: 450 }} >
       <CardActionArea>
         <CardMedia
           component="img"
@@ -21,17 +21,25 @@ export default function MediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            {props.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {props.content}
           </Typography>
         </CardContent>
+        <CardContent>
+        <div className={classes.details}>
+          <div className={classes.quantity}>
+            <span>132.2 Rs</span>
+          </div>
+          <div className={classes.actions}>
+            <button>-</button>
+            <button>+</button>
+          </div>
+        </div>
+        </CardContent>
       </CardActionArea>
-      {/* <div className={classes['card-bottom']}>
-        <span>21.34 Rs</span>
-        <span>+-</span>
-      </div> */}
+      
     </Card>
   );
 }

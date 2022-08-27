@@ -13,3 +13,20 @@
     background-color:  #d2cdcc;
     border-radius: 1rem;
 }
+
+.options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;  
+    color: "#81f0f7"
+}
+
+a{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    padding: 0.6rem;
+    color: rgb(23, 22, 22);
+}

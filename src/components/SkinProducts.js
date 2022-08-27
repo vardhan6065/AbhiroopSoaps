@@ -21,38 +21,42 @@ const SkinProducts = () =>{
                 <MediaCard
                 img={aloeveragel}
                 content={informationArray[0].content}
-                
+                title={informationArray[0].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={charcoalscrub}
-                
                 content={informationArray[1].content}
+                title={informationArray[1].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={facepack}
                 content={informationArray[0].content}
+                title={informationArray[2].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={facepack1}
                 content={informationArray[0].content}
+                title={informationArray[3].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={strawberrylipbalm}
                 content={informationArray[0].content}
+                title={informationArray[4].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={vanillalipbalm}
                 content={informationArray[0].content}
+                title={informationArray[5].title}
                 />
             </div>
     </React.Fragment>

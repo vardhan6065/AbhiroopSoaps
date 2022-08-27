@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import React from 'react';
+import React, { Fragment } from 'react';
 import Container from './components/Container';
 import Header from './components/Header';
 import classes from './App.css';
@@ -9,7 +9,7 @@ import SorryFile from './components/SorryFile';
 import { useSelector } from 'react-redux';
 import Home from './components/Home';
 import wp from './assets/wp.jpg';
-import { ChakraProvider } from '@chakra-ui/react';
+import Cart from './components/Cart/Cart';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
   const mainAreaShop = useSelector(state => state.mainareacontent.shopIsVisible);
   const mainAreaHome = useSelector(state => state.mainareacontent.HomeIsVisible);
   const mainAreaContact = useSelector(state => state.mainareacontent.contactIsVisible);
+  const mainAreaCart = useSelector(state => state.mainareacontent.cartIsVisible);
   
   const shop=<div className='content'>
                 <div className='sidebar'>
@@ -31,12 +32,15 @@ function App() {
   
 
   return (
-    <div className="App">
+    // <div className="App">
+    <Fragment>
       <Header/>
       {mainAreaShop && shop}
       {mainAreaHome && <Home/>}
-      <a className='wp-chat' href="https://wa.me/919772136065" target='_blank'><img src={wp}></img></a>
-    </div>
+      {mainAreaCart && <Cart className={classes.cart}/>}
+      <a className='wp-chat' href="https://wa.me/918010510288" target='_blank'><img src={wp}></img></a>
+      </Fragment>  
+    // </div>
   );
 }
 

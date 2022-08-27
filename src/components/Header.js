@@ -1,4 +1,4 @@
-import React,{Fragment, useState} from 'react';
+import React,{Fragment} from 'react';
 import classes from './Header.module.css';
 import logoImg from '../assets/logo.jpg';
 import Options from './Options';

@@ -1,0 +1,49 @@
+.outercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 80px 0px;
+    /* border:  2px solid black; */
+}
+
+.innercontainer{
+    display: flex;
+    width: 93%;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* overflow-y: scroll; */
+    padding: 20px;
+    background-color: rgb(207, 204, 204);
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+hr{
+    border: 0.3px solid rgb(47, 46, 46);
+    width: 90%;
+}
+
+/* .upper{
+    margin: 30px;
+} */
+
+.lower{
+margin: 30px;
+}
+
+.contact{
+
+}
+
+.stickers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker{
+    padding:2px;
+}

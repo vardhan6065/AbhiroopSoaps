@@ -5,20 +5,15 @@
     z-index: 1;
 }
 
-.homecontainer{
-    height: auto;
-    /* border: 2px solid black; */
-    position: relative;
-    top: 7rem;
-}
+
 /* .homecontainer .home1{
     border: 1px solid black;
 } */
 
-.homecontainer .home1images{
+/* .homecontainer .home1images{
     width: 50%;
-    margin: 0px;
-}
+    margin-top: 2rem;
+} */
 
 .homecontainer .home2{
     display: flex;

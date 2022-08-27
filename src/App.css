@@ -1,5 +1,8 @@
-.App {
+.App{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 }
 
 .App-logo {
@@ -44,7 +47,9 @@
   /* border: 10px solid black; */
   flex-direction: row ;
   height: 40em;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 0px;
+  /* background-color: green; */
 }
 
 .container{
@@ -63,7 +68,7 @@
   background-color: white;
   border-radius: 12px;
   padding: 4%;
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
 }
 
 .sidebar{

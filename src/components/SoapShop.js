@@ -24,7 +24,7 @@ const SoapShop = () =>{
                 <MediaCard
                 img={img1}
                 content={informationArray[0].content}
-                
+                title={informationArray[0].title}
                 />
             </div>
             {/* <div className={classes.mediacarddiv}>
@@ -38,44 +38,44 @@ const SoapShop = () =>{
                 <MediaCard
                 img={img3}
                 content={informationArray[0].content}
+                title={informationArray[1].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={img4}
                 content={informationArray[0].content}
+                title={informationArray[2].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={img5}
                 content={informationArray[0].content}
+                title={informationArray[3].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={img6}
                 content={informationArray[0].content}
+                title={informationArray[4].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={img7}
                 content={informationArray[0].content}
+                title={informationArray[5].title}
                 />
             </div>
             <div className={classes.mediacarddiv}>
                 <MediaCard
                 img={img8}
                 content={informationArray[0].content}
+                title={informationArray[6].title}
                 />
             </div>
-            {/* <div className={classes.mediacarddiv}>
-                <MediaCard
-                img={img9}
-                content={informationArray[0].content}
-                />
-            </div> */}
     </React.Fragment>
     )    
 }
